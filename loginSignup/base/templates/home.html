@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<section>
+<h1 style="color:red; display: inline;">You have successfully logged in , Thank you for choosing us</h1>
+</section>
+<section>
+<a style="color: black; display: inline-block;" href="{% url "base:logout" %}">logout</a>
+</section>
+{% endblock content %}
